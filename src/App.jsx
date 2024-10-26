@@ -17,7 +17,7 @@ const App = () => {
   const paginatedData = FOODS.slice(startIndex, endIndex);
 
   return (
-    <div className={styles.pagination_container}>
+    <div className={styles.paginationContainer}>
       <Table
         data={paginatedData}
         currentPage={currentPage}

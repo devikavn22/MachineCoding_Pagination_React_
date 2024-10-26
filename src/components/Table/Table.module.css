@@ -1,19 +1,25 @@
 
-.container_for_table {
+.tableContainer {
     width: 100%;
+    position: relative;
+    overflow-y: auto;
+    height: 80vh;
   }
   
   .table {
     width: 100%;
     text-align: center;
+    border-collapse: collapse;
+    margin-top: 20px;
   }
   
   .thead tr th {
     padding: 4px;
     margin: 0;
     font-size: 1.25rem;
+    color: aquamarine;
     text-transform: uppercase;
-    background-color: beige;
+    background-color: rgb(40, 112, 113);
     border: 1px solid beige;
   }
   
@@ -21,7 +27,7 @@
     padding: 4px;
     margin: 0;
     font-size: 1rem;
-    border-right: 1px solid beige;
+    border-right: 1px solid rgb(57, 57, 34);
     border-bottom: 1px solid beige;
     border-left: 1px solid beige;
   }

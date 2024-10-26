@@ -3,12 +3,12 @@ export const FOODS = [
     {
         id: 1,
         name: 'Cake',
-        price: 250,
+        price: 100,
     },
     {
         id: 2,
         name: 'Burger',
-        price: 200,
+        price: 110,
     },
     {
         id: 3,
@@ -68,7 +68,7 @@ export const FOODS = [
     {
         id: 14,
         name: 'Chicken Wings',
-        price: 18,
+        price: 58,
     },
     {
         id: 15,

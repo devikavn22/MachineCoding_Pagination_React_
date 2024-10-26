@@ -8,6 +8,13 @@
   }
   
   .pagination button {
-    margin: 0 1rem;
+    padding: 8px 12px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .pagination span{
+    font-size: 16px;
+    padding: 8px 12px;
+
   }
   
